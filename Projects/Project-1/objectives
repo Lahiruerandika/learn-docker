@@ -1,0 +1,17 @@
+# 📘 Dockerfile Objectives and Solution
+
+## 🧭 Objective
+
+This file outlines the objectives to be fulfilled when creating a Dockerfile for provided simple Node.js project. The goal is to dockerize the application following best practices.
+
+## ✅ Objectives to be Achieved in Dockerfile
+
+1. **Use a lightweight Node.js base image**
+2. **Create a non-root user** to enhance container security
+3. **Set a working directory** inside the container
+4. **Copy only the required files** initially to optimize image layers
+5. **Install project dependencies using `npm`**
+6. **Copy the full application source code** after installing dependencies
+7. **Set environment variables** required by the application
+8. **Expose the application port** to allow incoming traffic
+9. **Define the startup command** to run the Node.js app
